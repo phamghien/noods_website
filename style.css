@@ -181,7 +181,7 @@ body {
 .orderButton {
   align-items: center;
   background-color: initial;
-  background-image: linear-gradient(#db9927, #694a13 50%);
+  background-image: linear-gradient(#db9927, #4b340d 50%);
   border-radius: 42px;rgb(187, 130, 33);
   border-width: 0;
   color: #FFFFFF;
@@ -197,7 +197,6 @@ body {
   padding: 18px 18px;
   text-align: center;
   text-decoration: none;
-  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
