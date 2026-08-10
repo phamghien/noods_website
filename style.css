@@ -23,7 +23,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: black;
+
+    background: rgb(17, 20, 18);
     color: white;
 }
 /*----------------------------------------------------- Menu bar-----------------------------------------------------*/
@@ -154,7 +155,7 @@ body {
 }
 
 .about {
-    background: black;
+    background: rgb(17, 20, 18);
     padding: 100px 10%;
     text-align: center;
     
@@ -179,43 +180,41 @@ body {
 
 .orderButton {
   align-items: center;
-  appearance: none;
-  background-color: #a88e2c;
-  border-radius: 24px;
-  border-style: none;
-  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
-  box-sizing: border-box;
-  color: black;
+  background-color: initial;
+  background-image: linear-gradient(#db9927, #694a13 50%);
+  border-radius: 42px;rgb(187, 130, 33);
+  border-width: 0;
+  color: #FFFFFF;
   cursor: pointer;
-  display: inline-flex;
-  fill: currentcolor;
-  font-size: 22px;
-  font-weight: 900;
-  height: 48px;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
   justify-content: center;
-  letter-spacing: .25px;
-  line-height: normal;
-  max-width: 100%;
-  overflow: visible;
-  padding: 2px 24px;
-  position: relative;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
   text-align: center;
-  text-transform: none;
-  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: auto;
-  will-change: transform,opacity;
-  z-index: 0;
-  text-decoration: none;
-
+  vertical-align: baseline;
 }
 
 .orderButton:hover {
-  background: rgb(47, 56, 49);
-
+  background-image: linear-gradient( rgb(51, 85, 64),  rgb(17, 20, 18) 50%);
 }
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
+
 
 /*----------------------------------------------------- Gallery -----------------------------------------------------*/
 
@@ -223,7 +222,7 @@ body {
     position: relative;
     width: 100%;
     padding: 50px 0;
-    background: black;
+    background: rgb(17, 20, 18);
 }
 
 .galleryContainer {
@@ -284,17 +283,18 @@ body {
     width: auto;
     justify-content: center;
     gap: 50px; 
+    background: rgb(17, 20, 18);
 }
 
 .info h1 { 
-    color: #a88e2c;
+    color: #8f6213;
 }
 
 /*----------------------------------------------------- Footer -----------------------------------------------------*/
 
 
 footer { 
-    background-color: rgb(17, 20, 18);
+    background-color: black;
     padding: 2rem 3.5rem;
     text-align: center;
 }
@@ -349,7 +349,7 @@ footer {
 .aboutText h1 {
     font-size: 3rem;
     margin-bottom: 15px;
-    color: #a88e2c;
+    color: #8f6213;
 }
 
 .aboutText hr {
